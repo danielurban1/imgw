@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: pl.imgw.tests.DownloadWeatherDataTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 0.495 sec <<< FAILURE!
+checkIfFileIsAlreadyCreated(pl.imgw.tests.DownloadWeatherDataTest)  Time elapsed: 0.032 sec  <<< FAILURE!
+java.lang.AssertionError: File C://Users//urban//OneDrive//Documents//imgw//2021-10-07_jeleniagora.jsonis already created expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertFalse(Assert.java:65)
+	at pl.imgw.tests.DownloadWeatherDataTest.checkIfFileIsAlreadyCreated(DownloadWeatherDataTest.java:34)
+

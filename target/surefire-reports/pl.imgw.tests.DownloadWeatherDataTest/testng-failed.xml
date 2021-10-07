@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="40" parallel="classes" name="Failed suite [pl.imgw.tests.DownloadWeatherDataTest]" verbose="0">
+  <test thread-count="40" parallel="classes" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="pl.imgw.tests.DownloadWeatherDataTest">
+        <methods>
+          <include name="checkIfFileIsAlreadyCreated"/>
+          <include name="saveFile"/>
+          <include name="setUp"/>
+          <include name="getApiData"/>
+        </methods>
+      </class> <!-- pl.imgw.tests.DownloadWeatherDataTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [pl.imgw.tests.DownloadWeatherDataTest] -->

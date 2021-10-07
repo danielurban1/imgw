@@ -1,0 +1,4 @@
+pl\imgw\util\FileUtil.class
+pl\imgw\model\ConfigProperties.class
+pl\imgw\util\PropertiesUtil.class
+pl\imgw\requests\ApiDataSynop.class
